@@ -2,11 +2,7 @@ import React, { Component } from 'react';
 
 class Card extends Component {
 	render() {
-		return (
-			<div>
-				<h1>Card Component goes here</h1>
-			</div>
-		);
+		return <img className="Card" src={this.props.image} alt={this.props.name} />;
 	}
 }
 
